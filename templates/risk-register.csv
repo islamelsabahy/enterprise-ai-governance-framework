@@ -1,0 +1,3 @@
+risk_id,use_case_id,risk_category,description,likelihood,impact,risk_level,control,owner,status
+DEMO-RISK-001,DEMO-AI-001,Data Privacy,Potential retrieval of unauthorized content,Medium,High,High,Pre-retrieval access filtering,Demo Data Owner,Open
+DEMO-RISK-002,DEMO-AI-002,Hallucination,Incorrect KPI explanation,Medium,Medium,Medium,Grounding and human review,Demo Business Owner,Mitigated

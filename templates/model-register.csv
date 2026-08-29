@@ -1,0 +1,3 @@
+model_id,provider,model_name,model_version,hosting_type,status,owner
+DEMO-MDL-001,Demo Provider,Demo Language Model,v1,Cloud,Approved,Demo AI Owner
+DEMO-MDL-002,Sample Provider,Sample Model,v2,Private Endpoint,Testing,Demo Platform Owner

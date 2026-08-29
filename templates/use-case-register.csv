@@ -1,0 +1,3 @@
+use_case_id,name,business_owner,technical_owner,ai_type,model_id,risk_level,human_oversight,status,next_review_date
+DEMO-AI-001,Demo Internal Knowledge Assistant,Demo Business Owner,Demo IT Owner,RAG,DEMO-MDL-001,Medium,Human review for material decisions,Pilot,2026-12-01
+DEMO-AI-002,Demo Executive Summary Copilot,Demo Executive Owner,Demo AI Owner,Generative AI,DEMO-MDL-001,Medium,Human approval before action,Approved for Pilot,2026-11-15

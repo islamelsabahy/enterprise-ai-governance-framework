@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIUseCase",
+  "type": "object",
+  "required": [
+    "use_case_id",
+    "name",
+    "business_owner",
+    "risk_level",
+    "status"
+  ],
+  "properties": {
+    "use_case_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "business_owner": {
+      "type": "string"
+    },
+    "technical_owner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ai_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "human_oversight": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

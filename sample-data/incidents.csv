@@ -1,0 +1,3 @@
+incident_id,use_case_id,severity,category,status
+DEMO-INC-001,DEMO-AI-001,Medium,Prompt Injection,Closed
+DEMO-INC-002,DEMO-AI-002,High,Incorrect Tool Recommendation,Under Review
